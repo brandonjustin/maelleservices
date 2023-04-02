@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: popping-light;
+}
+
+.bar{
+    width: 30px;
+    height: 4px;
+    background:black;
+margin-top: 4px;
+
+}
+.menu{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    box-shadow: 1px 1px 1px gainsboro;
+    justify-content: space-around;
+    padding: 18px;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    top: -2px;
+    z-index:11111;
+    background-color: white;
+}
+.logo{
+    font-size:20px;
+}
+h2,p{
+    text-align: center;
+
+}
+
+header{
+        z-index:-1;
+    padding: 12px;
+    padding-top: 0px;
+    box-shadow: 2px 2px 4px gainsboro;
+    height:300px;
+    border-radius: 0px 0px 100px 0px;
+    background-image: url("images/head.jpg");
+  position: relative;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.text{
+    position: absolute;
+      height:100%;
+      width: 100%;
+              z-index:-1;
+    top: 0;
+    left: 0;
+  background: rgba(0, 0, 0, 0.7);
+    border-radius: 0px 0px 100px 0px;
+    padding-top: 20px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    margin: 2px auto;
+    display: block;
+    width: 120px ;
+    background-color: dodgerblue;
+    border-radius: 6px;
+    color: white;
+    margin-top: 24px;
+    cursor: pointer;
+}
+h2{
+        font-family:roboto;
+        color: dodgerblue;
+       
+  
+}
+p{
+    font-family: popping-light;
+}
+
+header>.text>p{
+   color: white;
+   font-size: 18px;
+}
+@font-face {
+    font-family:roboto ;
+    src: url(/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family:popping-light ;
+    src: url(/Poppins-Light.ttf);
+}
+
+.service,.service1{
+    display: flex;
+    align-items: center;
+    border: 1px solid gainsboro;
+    width: 46%;
+    border-radius: 20px 0px 20px 0px;
+    padding: 8px;
+    
+}
+section{
+    margin: 20px 4px;
+    display: flex;
+    justify-content: space-around;
+}
+.service1{
+    width: 98%;
+    margin: auto;
+}
+.description{
+    margin-left: 8px;
+}
+.long{
+    display: flex;
+    justify-content: center;
+}
+
+
+article{
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.categories{
+    position: relative;
+        width: 110px;
+    height: 150px;
+    background: url(images/2.jpeg);
+    background-size: cover;
+       background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 20px 0px 20px 0px; 
+    overflow: hidden;
+  
+}
+.cat2{
+        background: url(images/c.jpeg);
+}
+.cat3{
+            background: url(images/v.jpeg);
+}
+
+h3{
+    margin-top: 20px;
+    padding: 2px 6px;
+    color: dodgerblue;
+}
+
+.category-desc{
+position: absolute;
+      height:100%;
+      width: 100%;  
+    left: 0;
+  background: rgba(0, 0, 0, 0.3); 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.category-desc>h4{
+    color: white;
+    margin-bottom: 12px;
+}
+
+.products{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+
+
+}
+.image{
+    width: 100%;
+    height: 179px;
+    background-image: url("images/1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+       border-radius: 0px 0px 50px 0px; 
+    
+}
+.card{
+
+        box-shadow: 2px 2px 4px gray;
+        border-radius: 6px;
+        overflow: hidden;
+        width: 48%;
+        padding-bottom: 12px;
+        
+}
+
+.card>p{
+    text-align: left;
+    margin-left: 8px;
+}
+.card>h4{
+        margin-left: 8px;
+        margin-top: 12px;
+}
+
+.call{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    bottom: 5px;
+    right: 5px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.im2{
+background-image: url(images/2.jpeg);
+}
+
+.im3{
+background-image: url(images/3.jpeg);
+}
+
+.im4{
+    background-image: url(images/4.jpeg);
+}
+
+    
+.im5{background-image: url(images/5.jpeg);
+}
+
+.im6{
+    background-image: url(images/6.jpeg);
+}
+
+.im7{
+    background-image: url(images/7.jpeg);
+}
+
+.im8{
+    background-image: url(images/8.jpeg);
+}
+
+.item-img{
+    width: 100%;
+    height: 200px;
+    background-image: url(images/9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.it2{
+       background-image: url(images/14.jpeg);
+}
+
+.call>img{
+    margin-left: 10px;
+    margin-top: 12px;
+    transform: scale(0.8);
+}
+ul{
+    text-align:center;
+list-style-type:none;
+}
+
+footer>h4{
+    text-align: center;
+}
+footer{
+    background: url(images/bg.jpg);
+    padding: 20px;
+}
+
+.overlay{
+ transition: 0.2s linear;
+    height: 100vh;
+    background-color:dodgerblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+}
+
+.logo{
+    color:dodgerblue;
+}
+.gallery>img{
+    width:100%;
+    height:350px;
+}

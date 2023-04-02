@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maelle Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<nav>
+    <div class="brand">
+
+    </div>
+<div class="logo">
+    Maelle Services
+    <img src="" alt="">
+</div>
+<div class="menu" id="menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+</nav>
+
+
+
+<h3 style="margin-bottom: 12px;">Gallery</h3>
+<div class="gallery">
+
+
+<img src="images/03.jpeg" alt="">
+
+<img src="images/06.jpeg" alt="">
+
+<img src="images/10.jpeg" alt="">
+<img src="images/11.jpg" alt="">
+<img src="images/12.jpeg" alt="">
+<img src="images/05.jpeg" alt="">
+<img src="images/04.jpeg" alt="">
+<img src="images/21.jpeg" alt="">
+<img src="images/20.jpg" alt="">
+<img src="images/01.jpeg" alt="">
+<img src="images/02.jpeg" alt="">
+<img src="images/1.jpeg" alt="">
+<img src="images/13.jpeg" alt="">
+<img src="images/14.jpeg" alt="">
+<img src="images/2.jpeg" alt="">
+
+</div>
+
+
+
+
+
+<footer id="about">
+<h3 style="text-align: center;">Our Sevices.</h3>
+<h4>location</h4>
+<ul>
+    <li>Chapiteaux</li>
+    <li>Gazon synthentic</li>
+    <li>    Chaises</li>
+    <li>Tables</li>
+    <li>Couuvert</li>
+ 
+</ul>
+<h4 style="margin-top: 20px;font-size: 18px;">Et autres.</h4>
+<ul>
+
+    <li>Gateauxde mariage</li>
+    <li>Gateaux anniversaire</li>
+    <li>Beignet soufle , pizza , cakes</li>
+</ul>
+
+
+<h2 style="margin-top: 20px; color: darkgreen;">+237 670 61 95 08 <br> 695 75 82 63</h2>
+</footer>
+
+
+
+
+<div class="call">
+  <img src="images/call-icon.png" alt="">
+</div>
+ <div class="overlay" id="overlay"></div>
+</div>
+
+<script>
+    let overlay = document.getElementById("overlay")
+    let menu = document.getElementById("menu");
+menu.addEventListener("click",()=>{
+    if(overlay.style.width=="0px"){
+overlay.style.width="190px";
+    }else{
+        overlay.style.width="0"
+    }
+})
+</script>
+</body>
+</html>
